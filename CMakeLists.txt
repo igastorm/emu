@@ -8,8 +8,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include(CheckCXXCompilerFlag)
 
-find_program(LLD_EXECUTABLE lld)
-
 check_cxx_compiler_flag("-fno-exceptions" COMPILER_SUPPORTS_FNO_EXCEPTIONS)
 check_cxx_compiler_flag("-Wall" COMPILER_SUPPORTS_WALL)
 
